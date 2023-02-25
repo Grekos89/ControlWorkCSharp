@@ -1,6 +1,9 @@
 ﻿string[] arr = new string[] {"фамилия", "имя", "отчество", "дом", "этаж", "квартира", "123"};
 string[] arr2 = new string[arr.Length];
 
+ThreeSymbolInArray(arr, arr2);
+PrintArray(arr2);
+
 void ThreeSymbolInArray(string[] arr, string[] arr2)
 {
     int count = 0;
