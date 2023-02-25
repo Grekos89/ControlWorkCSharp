@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string[] arr = new string[] {"фамилия", "имя", "отчество", "дом", "этаж", "квартира", "123"};
+string[] arr2 = new string[arr.Length];
+
